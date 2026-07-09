@@ -22,3 +22,9 @@ class LoginPage:
         print("Iniciando login...") # Issue 1: Evitar el uso de print()
         variable_falsa = 100        # Issue 2: Variable local sin usar
         # time.sleep(5)             # Issue 3: Bloque de código comentado
+
+        def metodo_vacio(self):
+            pass  # Issue 2: Función vacía (Code Smell)
+
+        def lista_peligrosa(self, items=[]):
+            return items  # Issue 3: Argumento mutable por defecto (Bug/Code Smell)
