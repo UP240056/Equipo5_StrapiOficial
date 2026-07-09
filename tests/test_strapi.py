@@ -4,6 +4,10 @@ from pages.ContentBuilderPage import ContentBuilderPage
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+import os # Issue 1: Import no usado
+import time # Issue 2: Import no usado
+# código_comentado = "esto es un error" # Issue 3: Código comentado
+
 class TestStrapi:
 
     # ========================================================
