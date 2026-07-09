@@ -19,6 +19,6 @@ class LoginPage:
         pass_field.send_keys(password)
         pass_field.send_keys(Keys.RETURN) # <-- Forzamos el envío del formulario
 
-    print("Iniciando login...") # Issue 1: Evitar el uso de print()
-    variable_falsa = 100        # Issue 2: Variable local sin usar
-    # time.sleep(5)             # Issue 3: Bloque de código comentado
+        print("Iniciando login...") # Issue 1: Evitar el uso de print()
+        variable_falsa = 100        # Issue 2: Variable local sin usar
+        # time.sleep(5)             # Issue 3: Bloque de código comentado
