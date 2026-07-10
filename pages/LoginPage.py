@@ -18,10 +18,3 @@ class LoginPage:
         pass_field = self.wait.until(EC.visibility_of_element_located((By.NAME, "password")))
         pass_field.send_keys(password)
         pass_field.send_keys(Keys.RETURN) # <-- Forzamos el envío del formulario
-
-        def metodo_vacio(self):
-            pass
-
-        def lista_peligrosa(self, items=[]):
-            return items
-
